@@ -63,4 +63,5 @@ model = model.to(device)
 >PATH_TO_MODEL_CHECKPOINT = '<path_to_downloaded_model_checkpoint>'
 >model = YOLO(PATH_TO_MODEL_CHECKPOINT)
   
-
+> To generate our final `submission.json` file for the competition : <br>
+> Run the cells in the [Inference Notebook](https://github.com/Blessing988/DSPS24/blob/main/Inference_Notebook.ipynb)
