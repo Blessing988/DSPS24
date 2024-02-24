@@ -1,9 +1,9 @@
 # DSPS24 Student Competition
 
 [TEAM JAPA](https://dsps-1e998.web.app/leaderboard)
->
+> [DSPS 24](https://dsps-1e998.web.app/)
 ```python
-"""This is the third student [competition](https://dsps-1e998.web.app/) on the application of AI for pavement condition monitoring.
+"""This is the third student competition on the application of AI for pavement condition monitoring.
 Participants will use novel machine learning algorithms to predict the pavement condition index (PCI)
 for road sections based on images captured from infrastructure - mounted sensors. 
 Training datasets provided consists of Top-down views of pavement image data and corresponding pavement condition indices. 
