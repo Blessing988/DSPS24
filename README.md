@@ -27,7 +27,7 @@ Participants are free to annotate training datasets and use any model architectu
 >|Model|Checkpoint|
 >|------|----------|
 >|ResNet50|[model](https://drive.google.com/file/d/1Jk10bgNx9w4FoJJDi-F2nS6kUhRR_Iv3/view?usp=drive_link)|
-> |ResNet101|[model checkpoint](https://drive.google.com/file/d/1oP1R2Cm2HhPaMae-LuyoWyfIvMGoG6oW/view?usp=sharing)|
+> |ResNet101|[model checkpoint](https://drive.google.com/file/d/1m-DWqJTdERL_G9M1nRbbVxav8cokTb2a/view?usp=sharing)|
 > |YOLOv8l-cls|[checkpoint](https://drive.google.com/file/d/1q9hR1XHXMjwb68VOOM83ZZBYNnOj2MvR/view?usp=drive_link)|
 
 > You can downlaod the model checkpoins using ```gdown```
