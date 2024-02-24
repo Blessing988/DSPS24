@@ -50,10 +50,10 @@ model = model.to(device)
 ```
 >
 > To load a YOLO model
-- Install ```ultralytics``` using `pip` e.g. ```pip install ultralytics```
-```python
-from ultralytics import YOLO
-PATH_TO_MODEL_CHECKPOINT = '<path_to_downloaded_model_checkpoint>'
-model = YOLO(PATH_TO_MODEL_CHECKPOINT)
+>- Install ```ultralytics``` using `pip` e.g. ```pip install ultralytics```
+>```python
+>from ultralytics import YOLO
+>PATH_TO_MODEL_CHECKPOINT = '<path_to_downloaded_model_checkpoint>'
+>model = YOLO(PATH_TO_MODEL_CHECKPOINT)
   
 
