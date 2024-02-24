@@ -16,3 +16,5 @@ Participants are free to annotate training datasets and use any model architectu
 > ```ResNet50``` <br>
 > ```ResNet101``` <br>
 > `YOLOv8l-cls` <br>
+
+To train the ResNet models:
