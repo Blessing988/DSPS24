@@ -30,3 +30,21 @@ Participants are free to annotate training datasets and use any model architectu
 > |ResNet101|[model checkpoint](https://drive.google.com/file/d/1oP1R2Cm2HhPaMae-LuyoWyfIvMGoG6oW/view?usp=sharing)|
 > |YOLOv8l-cls|[checkpoint](https://drive.google.com/file/d/1q9hR1XHXMjwb68VOOM83ZZBYNnOj2MvR/view?usp=drive_link)|
 
+> To load any if the pretrained ResNet models: <br>
+>E.g: To load ResNet50 : <br>
+
+```python
+import torchvision.models as models
+# Load the checkpoint
+PATH_TO_MODEL_CHECKPOINT = '<path_to_downloaded_model_checkpoint>'
+model = models.resnet50(weights=True)
+num_ftrs = model.fc.in_features
+model.fc = nn.Linear(num_ftrs, 1)
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+checkpoint = torch.load(PATH_TO_MODEL_CHECKPOINT)
+
+model.load_state_dict(checkpoint['model_state_dict'])
+model = model.to(device)
+```
+
