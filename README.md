@@ -19,3 +19,10 @@ Participants are free to annotate training datasets and use any model architectu
 >
 >To train the ResNet models use this [notebook](https://github.com/Blessing988/DSPS24/blob/main/Train-ResNet-Model-DSPS24.ipynb) <br>
 > Train the ```YOLOv8l-cls``` model using this [notebook](https://github.com/Blessing988/DSPS24/blob/main/Train-YOLOv8-cls-model-DSPS24.ipynb)
+
+
+> ### Model Checkpoints :
+|Model|Checkpoint|
+|------|----------|
+|ResNet50|[model](https://drive.google.com/file/d/1Jk10bgNx9w4FoJJDi-F2nS6kUhRR_Iv3/view?usp=drive_link)
+
