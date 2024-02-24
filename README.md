@@ -31,9 +31,11 @@ Participants are free to annotate training datasets and use any model architectu
 > |YOLOv8l-cls|[checkpoint](https://drive.google.com/file/d/1q9hR1XHXMjwb68VOOM83ZZBYNnOj2MvR/view?usp=drive_link)|
 
 > You can downlaod the model checkpoins using ```gdown```
+> 
 >```python
 >!gdown --id '1Jk10bgNx9w4FoJJDi-F2nS6kUhRR_Iv3' #ResNet50
->!gdown --id '1oP1R2Cm2HhPaMae-LuyoWyfIvMGoG6oW' # ResNet101
+>!gdown --id '1m-DWqJTdERL_G9M1nRbbVxav8cokTb2a' # ResNet101
+>!gdown --id '1q9hR1XHXMjwb68VOOM83ZZBYNnOj2MvR' #yolov8-cls
 
 > To load any if the pretrained ResNet models: <br>
 >E.g: To load ResNet50 : <br>
