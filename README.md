@@ -34,6 +34,7 @@ Participants are free to annotate training datasets and use any model architectu
 >E.g: To load ResNet50 : <br>
 
 ```python
+import torch
 import torchvision.models as models
 # Load the checkpoint
 PATH_TO_MODEL_CHECKPOINT = '<path_to_downloaded_model_checkpoint>'
