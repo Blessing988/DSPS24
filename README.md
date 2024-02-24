@@ -17,4 +17,4 @@ Participants are free to annotate training datasets and use any model architectu
 > ```ResNet101``` <br>
 > `YOLOv8l-cls` <br>
 
-To train the ResNet models:
+To train the ResNet models use this [notebook](https://github.com/Blessing988/DSPS24/blob/main/Train-ResNet-Model-DSPS24.ipynb)
