@@ -7,7 +7,8 @@
 Participants will use novel machine learning algorithms to predict the pavement condition index (PCI)
 for road sections based on images captured from infrastructure - mounted sensors. 
 Training datasets provided consists of Top-down views of pavement image data and corresponding pavement condition indices. 
-Participants are free to annotate training datasets and use any model architecture to predict the PCI of the road section."""
+Participants are free to annotate training datasets and use any model architecture to predict the PCI
+of the road section."""
 ```
 
 > In this competion, we ensemble 3 deep learning models using percentile-based aggregation method.
